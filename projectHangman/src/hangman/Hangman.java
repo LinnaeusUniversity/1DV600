@@ -88,7 +88,7 @@ public class Hangman {
 
 			switch (category) {
 			case 3:
-				String[] nameOfTheCountries = { "afghanistan", "england","norway","sweden","iran", "georgia","Holland", "germany", "greece", "india","Canada",	"tajikistan" };
+				String[] nameOfTheCountries = { "afghanistan", "england","norway","finland","sweden","iran", "georgia","Holland", "germany", "greece", "india","Canada",	"tajikistan" };
 				Random rand = new Random();
 				int index = rand.nextInt(nameOfTheCountries.length);
 				this.secretWord = nameOfTheCountries[index];
